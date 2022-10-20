@@ -1,0 +1,103 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+.hero {
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white
+}
+
+nav {
+    display: flex;
+    width: 85;
+    margin: auto;
+    padding: 20px ;
+justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 10px 20px;
+}
+
+nav ul li{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-right: 13%;
+}
+
+.detel{
+font-size: 20px;
+color: black;
+margin-bottom: 20px;
+
+}
+.detel p a:hover{
+    color: blueviolet;
+line-height: 22px;
+}
+.detel a{
+background-color: black;
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+color: red;
+display: inline-block;
+margin: 30px 0;
+border-radius: 5px;
+
+
+}
+
+.images{
+width: 45%;
+height: 80%;
+position: absolute;
+bottom: 0;
+right: 100;
+
+}
+
+.images img{
+left: 80%;
+height: 100%;
+position:absolute;
+bottom: 0;
+transition: translateX   (-50);
+transition: bottom 1s, left 1s
+
+}
+.images:hover.shape{
+    bottom: 50px;
+}
+
+.images:hover.shape2{
+left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
